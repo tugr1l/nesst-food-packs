@@ -3,7 +3,8 @@
 Per-country food product packs used by the Nesst app for offline food search.
 Each `<cc>.db` is a read-only SQLite file holding the most-scanned products sold in
 that country (name, brand, barcode, kcal, protein, carbohydrate, fat per 100 g,
-serving size). `index.json` lists every pack with its build time and SHA-256.
+serving size, and whatever micronutrients the label gives: vitamins, minerals,
+fibre, sugars, fatty acids, sodium). `index.json` lists every pack with its build time and SHA-256.
 
 ## Source and licence
 
